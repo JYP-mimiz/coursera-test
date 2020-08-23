@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+  font-family: Georgia, Times, serif;
+}
+
+/** HEADER **/
+#header-nav{
+background-color: #f6b319;
+border-radius: 0px;
+border: 0px;
+}
+
+/**#logo-img{
+background: url('../images/ACleaf.png') no-repeat;
+width: 400px;
+height: 400px;
+  border: 10px solid black;
+  margin: 10px 15px 10px 0;
+
+}**/
+
+#navbar-brand {
+
+color:#951C49;
+margin-top: 0;
+float:left;
+position: relative;
+
+}
+
+
+
+
+.row{
+  margin-top: 100%;
+  margin-bottom: 100%;
+}
+
+h1 {
+    position:absolute;
+    margin-top: 0;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #A52A2A;
+  font-size: 35px;
+}
+
+h2{
+  margin-bottom: 15px;
+  text-align: center;
+  color: #A52A2A;
+  font-size: 30px;
+}
+
+
+
+.box{
+  width: 100%;
+  overflow: none;
+}
+.content-name{
+  
+  text-align: center;
+  border: 3px solid black;
+  width: 100px;
+  height: 40px;
+  padding: 10px;
+  float: right;
+  margin-right: 30px;
+  margin-top: 0px;
+  
+  position: relative;
+}
+.content{
+  border: 3px solid black;
+  width: 90%;
+  height: auto;
+  margin: 2.5%;
+  color: black;
+  font-size: 15px;
+  padding: 2%;
+  padding-top: 55px;
+  background-color: rgb(100,100,90);
+}
+.name1{
+  color: white;
+  background-color: #5F9EA0;
+}
+.name2{
+  color: white;
+  background-color: #5F9EA0;
+}
+.name3{
+  color: white;
+  background-color: #5F9EA0;
+}
+
+
+#nav-list a {
+
+margin-top: 10px;
+}
+
+#nav-list a {
+
+  color:#951C49;
+  text-align: center;
+}
+
+#nav-list a:hover {
+ background: #E7E7E7;
+
+}
+
+#nav-list a span {
+
+  font-size: 1.8em;
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+  	float: left;
+    width: 33.33%;
+  }
+}
+/********** Medium devices only **********/
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6,.col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    margin-left: -10px;
+    width: 100%;
+  }
+  .name3{
+    margin-right: 65px;
+    width: 100px;
+  }
+}
+
+}
+
+@media (min-width: 768px) {
+
+  .navbar-toggle {
+
+    display: none;
+  }
+
+
+@media(max-width: 768px) {
+    #collapsable-nav  a { /* Collapsed nav menu text */
+        font-size: 1.5em;
+        text-align: center;
+        border: 1px solid black;
+        background-color: rgb(213, 216, 32);
+    }
+
+    /* #collapsable-nav {
+        margin-top: ;
+    } */
+
+    #collapsable-nav{
+        border: 0;
+        /* margin-top: -10px; */
+    }
